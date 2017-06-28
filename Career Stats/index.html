@@ -20,6 +20,68 @@
   </head>
   <body>
     <header>
+      <!-- Create a class container -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-2 col-lg-2">
+        </div>
+
+        <div class="col-md-8 col-lg-8">
+
+            <!-- Create a form-->
+            <Panel>
+             <form>
+              <div class="form">
+            <label for="Occupation" class=" control-label"> </label>
+                <div class="input-group">
+                    <!-- Select an occupation -->
+                    <select id="occupation" name="occupation" class="form-control" required="required">
+                        <option value="na" selected="">Occupation:</option> <br>
+                        <option value="Major">Software Developer</option>
+                        <option value="Major">Business Intelligence</option>
+                        <option value="Major">Server Administration</option>
+                        <option value="Major">Cyber Security</option>
+                        <option value="Major">System Analysis</option>
+                        <option value="Major">Accounting</option>
+                        <option value="Major">Entrepreneur</option>
+                        <option value="Major">Global Supply Chain & Operations</option>
+                        <option value="Major"> Professional Sales</option>
+                        <option value="Major">Project Management</option>
+                        <option value="Major">Medical Coding</option>
+                        <option value="Major">Medical Assistance</option>
+                        <option value="Major">Interior Designer</option>
+                        <option value="Major">Paralegal</option>
+                        <option value="Major">Social Media Marketer</option>
+                    </select>
+                    </div>
+                </div>
+
+                 <div class="form">
+                     <label for="Date" class="control-label"> Date </label>
+                     <div class="input-daterange"id="datepicker" >
+                         <input type="text" class="input-small" name="start" id=" From " placeholder="From"/>
+                         <span class="add-on" style="vertical-align: top;height:20px">to</span>
+                         <input type="text" class="input-small" name="end" id=" To" placeholder="To" />
+                     </div>
+
+                 </div>
+
+                 <div class="form">
+                     <label for="State" class="control-label">State ?</label> <br>
+                             <input type="radio"  value="Yes" Yes> Yes
+                             <input type="radio"  value="No" No> No <br>
+                     <input type="submit" value ="Submit">
+
+                 </div>
+             </form>
+            </Panel>
+        </div>
+        <div class="col-md-2 col-lg-2">
+
+        </div>
+
+    </div>
+</div>
       <img src="LDSBC1.jpg" alt="">
       <h1>LDS Business College - Career Statistics Website</h1>
     </header>
