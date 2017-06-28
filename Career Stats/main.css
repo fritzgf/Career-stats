@@ -1,0 +1,52 @@
+/*h1  {
+  margin-left: 25px;
+font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color: white;
+
+}
+
+
+img {
+  float: left;
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+}
+
+.page-header {
+  background: #37393a;
+  margin: 0;
+  padding: 25px;
+  box-shadow: 0 0 10px;
+}*/
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("bg.jpeg");
+  background-size:cover;
+}
+
+header {
+  display: flex;
+  box-shadow: 0 0 25px #3E5B98;
+  background: rgba(55,57,58,0.9);
+
+}
+
+header img {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+header  h1 {
+  padding: 10px;
+  flex-grow: 1;
+  font-weight: bold;
+  color: white
+}
