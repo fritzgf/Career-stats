@@ -27,7 +27,7 @@ img {
 }
 
 body {
-  background: url("bg.jpeg");
+  /*background: url("bg.jpeg");*/
   background-size:cover;
 }
 
@@ -49,4 +49,102 @@ header  h1 {
   flex-grow: 1;
   font-weight: bold;
   color: white
+}
+
+.main-form {
+  background: rgba(55,57,58,0.9);
+  color: white;
+  width: 500px;
+  height: 400px;
+  margin: 100px auto;
+  box-shadow: 0 0 3px #37393a;
+
+}
+
+.control-label {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 32px;
+}
+
+.state {
+  width: 90%;
+  margin: auto;
+}
+
+.radio {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.box {
+  flex-grow: 1;
+}
+
+input[type="radio"]
+{
+  font-size:  26px;
+  height: 26px;
+  width: 26px;
+
+}
+
+input[type="text"] {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.button {
+  width: 100%;
+}
+
+input[type="submit"] {
+  color: black;
+  height: 50px;
+  margin: 20px 35%;
+  width: 30%;
+  font-size: 24px;
+}
+
+
+
+span {
+  font-size: 26px;
+  padding: 10px
+
+}
+
+
+#occupation {
+  width: 90%;
+  margin: auto;
+  height: 50px;
+  border-radius: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#datepicker {
+  width: 90%;
+  margin: auto;
+  height: 50px;
+}
+
+#From {
+  width: 49%;
+  margin: 0.5%;
+  float: left;
+  height: 50px;
+}
+
+#To {
+  width: 49%;
+  margin: 0.5%;
+  height: 50px;
+  float: left;
 }
