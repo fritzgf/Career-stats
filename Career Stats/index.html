@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Career Stats</title>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
@@ -11,92 +11,82 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="main.css">
+    <!--<link rel="stylesheet" href="main.css"> -->
 
+</head>
+<body>
+<header>
 
-  </head>
-  <body>
-    <header>
-      <img src="LDSBC1.jpg" alt="">
-      <h1>LDS Business College - Career Statistics Website</h1>
-    </header>
+    <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand"> LDS Business College - Career Statistics Website</a>
+            </div>
+        </nav>
 
-    <!-- Create a class container -->
-    <div class="container">
-        <div class="row">
+</header>
 
+<!-- Create a class container -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-2 col-lg-2">
 
-                <!-- Create a form-->
-                <Panel>
-                 <form class="main-form">
-                  <div class="form">
-                <label for="Occupation" class=" control-label"> </label>
-                        <!-- Select an occupation -->
-                        <select id="occupation" name="occupation" class="form-control" required="required">
-                            <option value="na" selected="">Occupation:</option> <br>
-                            <option value="Major">Software Developer</option>
-                            <option value="Major">Business Intelligence</option>
-                            <option value="Major">Server Administration</option>
-                            <option value="Major">Cyber Security</option>
-                            <option value="Major">System Analysis</option>
-                            <option value="Major">Accounting</option>
-                            <option value="Major">Entrepreneur</option>
-                            <option value="Major">Global Supply Chain & Operations</option>
-                            <option value="Major"> Professional Sales</option>
-                            <option value="Major">Project Management</option>
-                            <option value="Major">Medical Coding</option>
-                            <option value="Major">Medical Assistance</option>
-                            <option value="Major">Interior Designer</option>
-                            <option value="Major">Paralegal</option>
-                            <option value="Major">Social Media Marketer</option>
-                        </select>
+        <!-- Create a form-->
+            <form class="main-form">
 
-                         <label for="Date" class="control-label"> Date </label>
-                         <div class="input-daterange"id="datepicker" >
-                             <input type="text" class="input-small" name="start" id="From" placeholder="From"/>
-                             <!-- <span class="add-on">to</span> -->
-                             <input type="text" class="input-small" name="end" id="To" placeholder="To" /><br>
-                         </div>
+                    <label for="Occupation" class=" control-label"> </label>
+                    <!-- Select an occupation -->
+                    <select id="occupation" name="occupation" class="form-control" required="required">
 
+                        <option value="na" selected="">Occupation:</option>
+                        <option value="Major">Software Developer</option>
+                        <option value="Major">Business Intelligence</option>
+                        <option value="Major">Server Administration</option>
+                        <option value="Major">Cyber Security</option>
+                        <option value="Major">System Analysis</option>
+                        <option value="Major">Accounting</option>
+                        <option value="Major">Entrepreneur</option>
+                        <option value="Major">Global Supply Chain & Operations</option>
+                        <option value="Major"> Professional Sales</option>
+                        <option value="Major">Project Management</option>
+                        <option value="Major">Medical Coding</option>
+                        <option value="Major">Medical Assistance</option>
+                        <option value="Major">Interior Designer</option>
+                        <option value="Major">Paralegal</option>
+                        <option value="Major">Social Media Marketer</option>
+                    </select>
 
-
-                         <div class="state">
-
-                           <form class="" action="index.html" method="post">
-                         <label for="State" class="control-label">Utah Only?</label> <br>
-                                 <div class="radio">
-                                   <div class="box">
-                                     <input  type="radio" name="state" value="Yes" Yes> <span>Yes</span>
-                                   </div>
-                                   <div class="box">
-                                      <input type="radio" name="state" value="No" No> <span>No</span> <br>
-                                   </div>
-                                 </div>
-                                 <div class="button">
-
-
-                                 <input type="submit" value ="Submit">
-                                 </div>
-                         </div>
-
-
-
-
-
+                    <label for="Date" class="control-label"> Date </label>
+                    <div class="input-date range" id="date" >
+                        <input type="text" class="input-small" name="start" id="From" placeholder="From"/> <br>
+                        <!-- <span class="add-on">to</span> -->
+                        <input type="text" class="input-small" name="end" id="To" placeholder="To" /><br>
+                    </div>
+                          <div>
+                            <label for="state" class="control-label">Utah Only?</label>
+                            <div class="radio">
+                                <div class="box">
+                                    <input type="radio" name="state" value="Yes" Yes> <span>Yes</span>
+                                </div>
+                                <div class="box">
+                                    <input type="radio" name="state" value="No" No> <span>No</span>
+                                </div>
+                            </div>
+                            <div class="button">
+                                <input type="submit" value ="Submit">
+                                </div>
                         </div>
-                     </div>
-                 </form>
-                </Panel>
 
+    </form>
 
-        </div>
+            <div class="col-md-2 col-lg-2">
+            </div>
     </div>
 
+    </div>
 
+</div>
 
-
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
 </html>
